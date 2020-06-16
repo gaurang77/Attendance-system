@@ -1,0 +1,230 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#navbar {
+  background: rgba(51, 51, 51, 0.411);
+  display: block;
+}
+#navList li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 5px 10px;
+}
+#navList li button {
+  color: aliceblue;
+  background-color: rgb(67, 165, 42);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px;
+}
+#navList li button:hover {
+  background: rgba(17, 11, 20, 0.678);
+}
+#navList li button a {
+  color: aliceblue;
+  text-decoration: none;
+}
+table {
+  border: 1px solid black;
+  width: 90%;
+  margin: 2px auto;
+}
+
+table tr th {
+  font-size: 25px;
+  border-right: black 2px groove;
+}
+table tr td {
+  text-align: center;
+  background: rgba(255, 99, 71, 0.65);
+}
+.head {
+  margin: 15px auto;
+  font-weight: lighter;
+  background-color: blanchedalmond;
+  border-radius: 10px;
+  width: 60%;
+  text-align: center;
+}
+form {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  width: 70%;
+}
+form label {
+  font-size: 35px;
+  font-weight: lighter;
+  display: block;
+  height: 35px;
+  text-align: center;
+  margin: 10px;
+}
+form input {
+  display: block;
+  height: 35px;
+  width: 100%;
+  border-radius: 20px;
+  text-align: center;
+  font-size: larger;
+  background-color: aliceblue;
+  color: darkred;
+}
+input:focus {
+  outline: none;
+  font-size: 25px;
+  text-align: center;
+}
+button[type="submit"] {
+  width: 100%;
+  margin-top: 30px;
+  border: 1px solid red;
+  border-radius: 50px;
+  height: 50px;
+  font-size: 35px;
+  font-weight: bolder;
+  background: rgba(224, 2, 2, 0.712);
+}
+button[type="submit"]:hover {
+  color: rgba(224, 2, 2, 0.712);
+  background: black;
+  cursor: pointer;
+}
+.error {
+  text-align: center;
+  color: red;
+  font-size: 20px;
+}
+.select {
+  text-align: center;
+  background-color: beige;
+  padding: 10px 5px;
+  font-family: cursive;
+  margin: 10px auto 20px auto;
+  width: 20%;
+}
+#take {
+  margin: 20px 30px;
+  background-color: rgba(2, 2, 31, 0.397);
+  position: relative;
+}
+#atnbody {
+  padding: 10px;
+}
+#atnbody h2 {
+  width: 400px;
+  margin: -20px auto 0px auto;
+  padding: 1px 5px;
+  font-weight: lighter;
+  text-align: center;
+  color: rgba(210, 228, 230, 0.972);
+  background-color: blueviolet;
+}
+#select-container {
+  margin: 5px;
+  background-color: cadetblue;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+#select-container #atnmonth,
+#select-container #atnclass {
+  height: 40px;
+  font-size: medium;
+  font-family: monospace;
+}
+#select-container .one,
+#select-container .two {
+  background: rgba(211, 255, 16, 0.733);
+  text-align: center;
+}
+#calender {
+  margin: 0px auto;
+  width: 95%;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.block {
+  border: 1px solid black;
+  height: 16vh;
+  margin: 1px;
+}
+.block p {
+  text-align: center;
+  padding-top: 1px;
+  margin-bottom: 3px;
+  font-size: x-large;
+}
+pre {
+  text-align: center;
+  margin: 0px;
+}
+.block:hover {
+  cursor: pointer;
+  background-color: rgba(222, 184, 135, 0.719);
+}
+#loadatndate,
+#loadatnclass {
+  text-align: center;
+  font-size: 35px;
+}
+
+#atnload {
+  width: 70%;
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: 40% 30% 30%;
+  text-align: center;
+  border: 2px groove grey;
+}
+#atnload h3 {
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  border-bottom: groove 1px grey;
+}
+#sub {
+  width: 40%;
+  margin: 20px auto;
+  text-align: center;
+}
+#sub button {
+  font-size: larger;
+  background-color: rgb(228, 89, 35);
+  border: 2px brown double;
+  border-radius: 5px;
+  font-family: cursive;
+}
+#sub button:hover {
+  cursor: pointer;
+  background-color: cadetblue;
+}
+
+#datE,
+#showDate,
+#showClass {
+  text-align: center;
+}
+#showAtn {
+  border: cadetblue 2px solid;
+  width: 70%;
+  margin: 5px auto;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+#showAtn h3 {
+  padding-bottom: 5px;
+  border-bottom: solid 3px black;
+}
+.present {
+  color: blue;
+  font-family: monospace;
+}
+.absent {
+  color: red;
+  font-family: monospace;
+}
